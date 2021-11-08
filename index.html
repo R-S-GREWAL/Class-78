@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<title>My Activity</title>
+</head>
+<body>
+    <h1>Open Console</h1>
+    <h4 id="Declaration_of_Arrays"></h4>
+    <h4 id="Add_element_at_the_end_of_the_array"></h4>
+    <h4 id="Reverse_Array"></h4>
+    <script>
+        console.log("Rehan Grewal");
+        var cities = ["Moscow","Ottawa","Liverpool","Dallas","Munich","Hallstat"];
+        console.log (cities);
+        document.getElementById ("Declaration_of_Arrays").innerHTML=cities;
+        cities.push ("Abu Dhabi");
+        console.log (cities);
+        document.getElementById ("Add_element_at_the_end_of_the_array").innerHTML=cities;
+        cities.reverse ();
+        console.log(cities);
+        document.getElementById ("Reverse_Array").innerHTML=cities;
+    </script>
+    
+</body>
+</html>
